@@ -103,3 +103,7 @@ console.log();
 // 그 외 문자열 메서드
 console.log('s.concat("!")=> '+s.concat("!"));      // => "Hello, world!": + 연산자를 쓰는 게 더 간단
 console.log('"<>".repeat(5)=> '+"<>".repeat(5));    // => "<><><><><>": n번 복사. ES6에서 추가
+
+let name = "Bill";
+let greeting = `hello ${ name }.`;
+console.log(greeting);
